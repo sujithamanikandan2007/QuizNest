@@ -1,0 +1,37 @@
+/* QuizNest Responsive Layout Utilities */
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .mobile-nav-toggle {
+    display: block !important;
+  }
+
+  .admin-sidebar {
+    width: 68px !important;
+  }
+
+  .admin-sidebar nav a span {
+    display: none;
+  }
+
+  .admin-main {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .content-container {
+    padding: 1.25rem 1rem !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-nav-toggle {
+    display: none !important;
+  }
+
+  .mobile-nav-menu {
+    display: none !important;
+  }
+}
